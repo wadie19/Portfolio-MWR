@@ -160,3 +160,27 @@ export const EXPERIENCES = [
       "During my internship at SeeWise in 2021, I contributed to the design and creation of a website for an agency specializing in the online rental and sale of houses and land. The project was developed as a full-stack application using Symfony and PHP, with Bootstrap employed for responsive design. Additionally, I managed the database with MySQL to ensure efficient data handling."
   },
 ];
+
+export const EDUCATION = [
+  {
+    degree: "Master in Computer Science, specializing in software engineering and application integration",
+    institution: "ISIMA",
+    duration: "September 2023 - Present",
+    description:
+      "Focused on software engineering, middleware, and application integration. Developed skills in AI, DevOps, and service-oriented architecture (SOA), along with experience in database administration and complexity theory."
+  },
+  {
+    degree: "Bachelor in Computer Science",
+    institution: "ISIMA - University of Clermont Auvergne",
+    duration: "September 2022 - June 2023",
+    description:
+      "Focused on software engineering, algorithms, and artificial intelligence, with a focus on subjects such as XML languages, graph theory, compilation, and networking. Gained a solid foundation in problem-solving and system development through various projects, including applications of algorithms and graph theory.",
+  },
+  {
+    degree: "Bachelor in Information Technology specializing in Information Systems Development ",
+    institution: "Higher Institute of Technological Studies of Charguia",
+    duration: "September 2019 - June 2022",
+    description:
+      "Focused on web and mobile development, programming languages, and database management. Developed several web applications using HTML, CSS, JavaScript, Python, Java, and PHP, as well as mobile applications using Flutter."
+  },
+];  
