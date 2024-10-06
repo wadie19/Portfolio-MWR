@@ -5,6 +5,7 @@ import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import WorkExperience from "./Components/WorkExperience";
 import Education from "./Components/Education";
+import Contact from "./Components/Contact";
 
 const App = () =>{
   return (
@@ -18,6 +19,7 @@ container mx-auto">
     <Skills />
     <WorkExperience />
     <Education />
+    <Contact /> 
       </div>
     </div>
     
