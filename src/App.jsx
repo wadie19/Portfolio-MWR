@@ -3,6 +3,7 @@ import Accueil from "./Components/Accueil";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
+import WorkExperience from "./Components/WorkExperience";
 
 const App = () =>{
   return (
@@ -14,6 +15,7 @@ container mx-auto">
     <Navbar />
     <Projects />
     <Skills />
+    <WorkExperience />
       </div>
     </div>
     

@@ -135,3 +135,28 @@ export const SKILLS = [
   },
 
 ];
+
+
+export const EXPERIENCES = [
+  {
+    title: "Internship - Frontend Developer",
+    company: "Genius Career",
+    duration: "May 2024 - Aout 2024",
+    description:
+    "At Genius Career, my role involved developing the front end of the project titled One Crush, which is a dating app, in an Agile SCRUM environment. I focused on building highly interactive and responsive web interfaces using Angular. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. Additionally, I worked with the backend team to consume APIs and used Postman for testing and ensuring smooth integration."
+  },
+  {
+    title: "Internship - Web Developer",
+    company: "Designet",
+    duration: "February 2022 - June 2022",
+    description: 
+    "In my end-of-study internship, my role involved designing and building an online course application aimed at individuals seeking personal lessons or sessions with instructors. I worked within an Agile SCRUM framework, using Angular and TypeScript for the front end, and using Spring Boot and Java for the backend development. I implemented responsive design with Bootstrap and managed the database with MySQL. Additionally, I utilized Postman for API testing to ensure effective integration and functionality."
+  },
+  {
+    title: "Internship - Web Developer",
+    company: "SeeWise",
+    duration: "August 2021",
+    description:
+      "During my internship at SeeWise in 2021, I contributed to the design and creation of a website for an agency specializing in the online rental and sale of houses and land. The project was developed as a full-stack application using Symfony and PHP, with Bootstrap employed for responsive design. Additionally, I managed the database with MySQL to ensure efficient data handling."
+  },
+];
