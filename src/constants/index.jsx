@@ -5,6 +5,12 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaInstagram,
+} from "react-icons/fa6";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMicrosoftsqlserver, SiMongodb, SiPhpmyadmin, SiSpringboot } from "react-icons/si";
@@ -15,6 +21,8 @@ import { FaJava } from 'react-icons/fa';
 import { FaPhp } from 'react-icons/fa'; 
 import { FaJsSquare } from 'react-icons/fa'; 
 import { DiSymfony } from "react-icons/di";
+
+
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -184,3 +192,22 @@ export const EDUCATION = [
       "Focused on web and mobile development, programming languages, and database management. Developed several web applications using HTML, CSS, JavaScript, Python, Java, and PHP, as well as mobile applications using Flutter."
   },
 ];  
+
+export const SOCIAL_MEDIA_LINKS = [
+  {
+    href: "https://www.facebook.com/wadie.rezgui.9",
+    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://www.instagram.com/wadie__rezgui/",
+    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://github.com/wadie19",
+    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
+  },
+  {
+    href: "https://www.linkedin.com/in/mohamed-wadie-rezgui-28a25b270/",
+    icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
+  },
+];

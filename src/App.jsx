@@ -6,6 +6,7 @@ import Skills from "./Components/Skills";
 import WorkExperience from "./Components/WorkExperience";
 import Education from "./Components/Education";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 const App = () =>{
   return (
@@ -20,6 +21,7 @@ container mx-auto">
     <WorkExperience />
     <Education />
     <Contact /> 
+    <Footer />
       </div>
     </div>
     
