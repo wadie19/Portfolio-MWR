@@ -1,5 +1,6 @@
 import React from "react";
 import Accueil from "./Components/Accueil";
+import Navbar from "./Components/Navbar";
 const App = () =>{
   return (
       <div className="relative h-full overflow-y-auto antialiased">
@@ -7,6 +8,7 @@ const App = () =>{
 <div className="relative z-10 flex flex-col items-center p-4 space-y-8
 container mx-auto">
   <Accueil />
+    <Navbar />
       </div>
     </div>
     
