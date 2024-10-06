@@ -2,6 +2,7 @@ import React from "react";
 import Accueil from "./Components/Accueil";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
 
 const App = () =>{
   return (
@@ -12,6 +13,7 @@ container mx-auto">
     <Accueil />
     <Navbar />
     <Projects />
+    <Skills />
       </div>
     </div>
     

@@ -5,6 +5,17 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
+
+import { RiReactjsLine } from "react-icons/ri";
+import { SiMicrosoftsqlserver, SiMongodb, SiPhpmyadmin, SiSpringboot } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+
+import { FaAngular } from 'react-icons/fa';
+import { FaJava } from 'react-icons/fa'; 
+import { FaPhp } from 'react-icons/fa'; 
+import { FaJsSquare } from 'react-icons/fa'; 
+import { DiSymfony } from "react-icons/di";
+
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Bio", href: "#bio" },
@@ -66,3 +77,61 @@ export const PROJECTS = [
 ];
 
 
+export const SKILLS = [
+  {
+    icon: <FaAngular className="text-4xl text-red-500 lg:text-5xl" />,
+    name: "Angular",
+    experience: "4+ year",
+  },
+  {
+    icon: <SiSpringboot className="text-4xl text-green-500 lg:text-5xl" />,
+    name: "Spring boot",
+    experience: "3+ year",
+  },
+  {
+    icon: <DiSymfony className="text-4xl text-white lg:text-5xl" />,
+    name: "Symfony",
+    experience: "2+ year",
+  },
+  { 
+    icon: <FaJava className="text-4xl text-red-300 lg:text-5xl" />,
+    name: "Java",
+    experience: "4+ year",
+  },
+  { 
+    icon: <FaJsSquare className="text-4xl text-yellow-300 lg:text-5xl" />,
+    name: "JavaScript",
+    experience: "4+ year",
+  },
+  { 
+    icon: <FaPhp className="text-4xl text-purple-400 lg:text-5xl" />,
+    name: "PHP",
+    experience: "2+ year",
+  },
+  {
+    icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Node.js",
+    experience: "2+ years",
+  },
+  {
+    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "React",
+    experience: "1+ years",
+  },
+  {
+    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "MongoDB",
+    experience: "2+ years",
+  },
+  { 
+    icon: <SiPhpmyadmin className="text-4xl text-orange-200 lg:text-5xl" />,
+    name: "MySQL",
+    experience: "4+ year",
+  },
+  { 
+    icon: <SiMicrosoftsqlserver className="text-4xl text-red-300 lg:text-5xl" />,
+    name: "Sql Server",
+    experience: "1+ year",
+  },
+
+];
