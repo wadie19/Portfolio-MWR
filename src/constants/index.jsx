@@ -85,6 +85,13 @@ export const PROJECTS = [
 ];
 
 
+export const BIO = [
+  "I am a second-year Master's student in Computer Science at ISIMA, Clermont-Ferrand, specializing in Software Engineering and Application Integration. With a solid academic background and hands-on experience in web and mobile development, I am passionate about building efficient, user-centric digital solutions.",
+  "During my studies, I’ve developed a broad skill set that includes front-end frameworks like Angular, back-end technologies such as Spring Boot, and mobile development using Flutter. My technical expertise extends to Java, PHP, JavaScript, MySQL, and Python, allowing me to deliver full-stack solutions across a range of environments.",
+  "In addition to academic projects, I’ve completed several internships that solidified my practical knowledge. My most recent experience was at Genius Career in Paris, where I worked on an Agile SCRUM team and focused on front-end development for the 'One Crush' project using Angular and GitLab, integrating the back end with the front end using Postman to test the API. Prior to that, I contributed to the development of an e-learning platform at Designet, where I worked with Angular, Spring Boot, and MySQL to build a comprehensive online course platform. I also gained experience in creating a real estate website during an internship at SeeWise, utilizing Symfony and Bootstrap to deliver a seamless user experience.",
+  "I am currently looking for a 5-6 month end-of-study internship starting in April 2025, with a strong interest in web or mobile development roles, ideally with the possibility of pre-hiring.  My goal is to apply my skills in real-world projects that make a positive impact, while continuing to grow as a developer."
+];
+
 export const SKILLS = [
   {
     icon: <FaAngular className="text-4xl text-red-500 lg:text-5xl" />,
@@ -165,7 +172,7 @@ export const EXPERIENCES = [
     company: "SeeWise",
     duration: "August 2021",
     description:
-      "During my internship at SeeWise in 2021, I contributed to the design and creation of a website for an agency specializing in the online rental and sale of houses and land. The project was developed as a full-stack application using Symfony and PHP, with Bootstrap employed for responsive design. Additionally, I managed the database with MySQL to ensure efficient data handling."
+      "During my internship at SeeWise in 2021, I contributed to the design and development of a website for an agency specializing in the online rental and sale of houses and land. The project was developed as a full-stack application using Symfony and PHP, with Bootstrap employed for responsive design. Additionally, I managed the database with MySQL to ensure efficient data handling."
   },
 ];
 

@@ -7,6 +7,7 @@ import WorkExperience from "./Components/WorkExperience";
 import Education from "./Components/Education";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
+import Bio from "./Components/Bio";
 
 const App = () =>{
   return (
@@ -17,6 +18,7 @@ container mx-auto">
     <Accueil />
     <Navbar />
     <Projects />
+    <Bio />
     <Skills />
     <WorkExperience />
     <Education />
