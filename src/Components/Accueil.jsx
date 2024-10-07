@@ -4,11 +4,11 @@ import { FaRegHandPeace } from "react-icons/fa6";
 import { GrContactInfo } from "react-icons/gr";
 import { ImNewTab } from "react-icons/im";
 import photo from "../assets/myImagee.png"
+import cv from "../Files/CV_REZGUI_WADIE.pdf"
 const Accueil = () => {
-  const [showResume, setShowResume] = useState(false);
 
   const handleToggleResume = () => {
-    window.open("src/Files/CV_REZGUI_WADIE.pdf", "_blank"); 
+    window.open(cv, "_blank"); 
   };
 
   return (

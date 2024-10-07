@@ -52,7 +52,7 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    name: "Stock and equipment loan management",
+    name: "Stock management",
     description:
       " Implemented a mobile application for managing stock and equipment loans, built with Flutter.",
     image: projectImage3,

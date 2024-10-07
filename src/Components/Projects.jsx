@@ -25,7 +25,7 @@ import { motion } from "framer-motion";
                         duration-500 group-hover:scale-110" />
                         <motion.div 
                         initial={{opacity: 0}}
-                        whileHover={{opacity: 1}}
+                        whileInView={{opacity:1}}
                         transition={{duration:0.5}}
                         className="absolute inset-0 flex flex-col items-center justify-center
                         text-white opacity-0 backdrop-blur-lg transition-opacity duration-500
