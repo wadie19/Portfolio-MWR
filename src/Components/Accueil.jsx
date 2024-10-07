@@ -64,7 +64,7 @@ const Accueil = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            src="src/assets/myImagee.png"
+            src="src/assets/myImagee.jpg"
             alt="My image"
             width={550}
             height={550}
