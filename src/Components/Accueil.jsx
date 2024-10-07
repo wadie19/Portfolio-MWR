@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { CgHello } from "react-icons/cg";
 import { FaRegHandPeace } from "react-icons/fa6";
 import { GrContactInfo } from "react-icons/gr";
 import { ImNewTab } from "react-icons/im";
@@ -65,7 +64,7 @@ const Accueil = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            src="../src/assets/myImagee.png"
+            src="src/assets/myImagee.png"
             alt="My image"
             width={550}
             height={550}

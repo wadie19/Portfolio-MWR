@@ -32,7 +32,7 @@ const Navbar = () =>{
                     <div className="flex items-center justify-between gap-6">
                         <div>
                             <a href="#">
-                                <img src="../src/assets/logo.webp" alt="logo" width={150}/>
+                                <img src="src/assets/logo.webp" alt="logo" width={150}/>
                             </a>
                         </div>
                         <div>
@@ -53,7 +53,7 @@ const Navbar = () =>{
                     <div className="flex items-center justify-between">
                         <div>
                             <a href="#">
-                                <img src="../src/assets/logo.webp" alt="logo" width={90} className="m-2"/>
+                                <img src="src/assets/logo.webp" alt="logo" width={90} className="m-2"/>
                             </a>
                         </div>
                         <div className="flex items-center">
