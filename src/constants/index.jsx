@@ -40,7 +40,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio site built with React and Tailwind CSS to feature my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/wadie19/Portfolio_MWR",
+    githubLink: "https://github.com/wadie19/Portfolio-MWR",
   },
   {
     id: 2,
