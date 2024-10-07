@@ -1,5 +1,6 @@
 import { SOCIAL_MEDIA_LINKS } from "../constants";
 import { motion } from "framer-motion";
+import logo from "../assets/logo.webp";
 const Footer = () => {
     return (
         <div className="mb-8 mt-20">
@@ -8,7 +9,7 @@ const Footer = () => {
                 initial={{opacity: 0}}
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.5}}
-                width={400} src="src/assets/logo.webp" alt="myLogo" className="my-20" />
+                width={400} src={logo} alt="myLogo" className="my-20" />
             </div>
             <div className="flex items-center justify-center gap-8">
                 {SOCIAL_MEDIA_LINKS.map((link, index) => (

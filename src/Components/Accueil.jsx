@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaRegHandPeace } from "react-icons/fa6";
 import { GrContactInfo } from "react-icons/gr";
 import { ImNewTab } from "react-icons/im";
-
+import photo from "../assets/myImagee.png"
 const Accueil = () => {
   const [showResume, setShowResume] = useState(false);
 
@@ -64,8 +64,8 @@ const Accueil = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
-            src="src/assets/myImagee.jpg"
-            alt="My image"
+            src={photo}
+            alt="photo"
             width={550}
             height={550}
             className="rounded-3xl"
