@@ -16,5 +16,11 @@ body{
 }
 
 .bg-img {
-  background-image: url(../src/assets/bg-img5.png);
+  background-image:
+    radial-gradient(
+      circle at 35% 40%,
+      rgba(40, 50, 120, 0.30),
+      transparent 45%
+    ),
+    url(../src/assets/bg-img5.png);
 }
